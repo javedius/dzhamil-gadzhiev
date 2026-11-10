@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Джамиль Гаджиев — эстетическая стоматология</title>
+  <meta name="description" content="Частная практика Джамиля Гаджиева. Эстетическая и цифровая стоматология: виниры, имплантация, реставрация улыбки." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-label">Смотреть</span></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div class="loader" role="status">
+    <div class="loader-inner">
+      <div class="loader-mono">ДГ</div>
+      <div class="loader-count">000</div>
+      <div class="loader-bar"><span></span></div>
+      <div class="loader-copy">Студия улыбки</div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <a class="logo" href="#top" data-cursor>Джамиль Гаджиев</a>
+    <nav class="nav-links">
+      <a href="#about" data-cursor>Врач</a>
+      <a href="#services" data-cursor>Направления</a>
+      <a href="#process" data-cursor>Путь</a>
+      <a href="#gallery" data-cursor>Студия</a>
+    </nav>
+    <a class="nav-cta" href="#visit" data-cursor data-magnetic>Запись</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <canvas id="webgl"></canvas>
+      <div class="hero-veil"></div>
+      <div class="scroll-hint">Листайте<i></i></div>
+      <div class="hero-content">
+        <div class="hero-kicker">
+          <span>Эстетическая стоматология</span>
+          <span>Частная практика</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="line"><span class="word">Джамиль</span></span>
+          <span class="line"><span class="word"><em>Гаджиев</em></span></span>
+        </h1>
+        <div class="hero-bottom">
+          <p class="hero-lead">Улыбка как ювелирная работа: точность, свет, характер. Без спешки и без случайных решений.</p>
+          <p class="hero-meta">Виниры · Имплантация<br>Цифровой дизайн улыбки<br>Бережная реставрация</p>
+          <a class="btn" href="#visit" data-cursor data-magnetic>Записаться <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Виниры</span><b>✦</b><span>Имплантация</span><b>✦</b><span>Отбеливание</span><b>✦</b><span>Цифровой дизайн</span><b>✦</b><span>Реставрация</span><b>✦</b><span>Эстетика улыбки</span><b>✦</b>
+        <span>Виниры</span><b>✦</b><span>Имплантация</span><b>✦</b><span>Отбеливание</span><b>✦</b><span>Цифровой дизайн</span><b>✦</b><span>Реставрация</span><b>✦</b><span>Эстетика улыбки</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="section" id="about">
+      <div class="section-head">
+        <span class="idx">01 — Врач</span>
+        <h2 class="section-title"><span class="line">Спокойная</span><span class="line"><em>точность</em></span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual" data-cursor="view">
+          <img src="assets/clinic-1.jpg" alt="Современный кабинет" />
+          <div class="about-frame"></div>
+          <div class="about-badge">Джамиль<br>Гаджиев<br>—  ✦  —</div>
+        </div>
+        <div class="about-copy">
+          <h3>Стоматология, в которой видно характер.</h3>
+          <p>Джамиль Гаджиев ведёт приём так, будто собирает вещь на заказ: сначала смотрит на лицо, свет и привычку улыбаться, потом — на зубы.</p>
+          <p>Никакой конвейерной эстетики. Каждый план лечения собирается под человека, а не под «модный» шаблон голливудской улыбки.</p>
+          <div class="stats">
+            <div class="stat"><b data-count="1" data-suf=":1">0:1</b><span>Внимание к вам</span></div>
+            <div class="stat"><b data-count="360" data-suf="°">0°</b><span>Цифровой разбор</span></div>
+            <div class="stat"><b data-count="100" data-suf="%">0%</b><span>Индивидуальный план</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-head">
+        <span class="idx">02 — Направления</span>
+        <h2 class="section-title"><span class="line">Что делаем</span><span class="line"><em>с ювелирной</em> точностью</span></h2>
+      </div>
+      <div class="services-pin">
+        <div class="services-track">
+          <article class="service-card is-type" data-cursor>
+            <span class="ghost" aria-hidden="true">01</span>
+            <div class="service-body">
+              <div class="service-num">01</div>
+              <h3>Виниры</h3>
+              <p>Тонкие керамические пластины, которые собирают новый свет улыбки — без грубого увеличения зубов.</p>
+            </div>
+          </article>
+          <article class="service-card is-type" data-cursor>
+            <span class="ghost" aria-hidden="true">02</span>
+            <div class="service-body">
+              <div class="service-num">02</div>
+              <h3>Имплантация</h3>
+              <p>Восстановление зуба так, чтобы его не выдавал ни цвет, ни посадка в линии улыбки.</p>
+            </div>
+          </article>
+          <article class="service-card" data-cursor="view">
+            <img src="assets/scan.jpg" alt="Цифровое планирование улыбки на снимках" />
+            <div class="service-body">
+              <div class="service-num">03</div>
+              <h3>Дизайн улыбки</h3>
+              <p>Сначала моделируем результат на экране и на макете. Только потом касаемся зубов.</p>
+            </div>
+          </article>
+          <article class="service-card is-type" data-cursor>
+            <span class="ghost" aria-hidden="true">04</span>
+            <div class="service-body">
+              <div class="service-num">04</div>
+              <h3>Реставрация</h3>
+              <p>Восстанавливаем форму и цвет так, чтобы работа растворилась в собственной эмали.</p>
+            </div>
+          </article>
+          <article class="service-card is-type" data-cursor>
+            <span class="ghost" aria-hidden="true">05</span>
+            <div class="service-body">
+              <div class="service-num">05</div>
+              <h3>Отбеливание</h3>
+              <p>Контролируемый светлый тон — живой, а не меловой. Без обещаний «на 10 тонов за час».</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section philosophy">
+      <div class="philo-line" aria-label="Философия приёма">
+        <span class="w">Не</span>
+        <span class="w">правим</span>
+        <span class="w gold">улыбку.</span>
+        <span class="w">Собираем</span>
+        <span class="w">её</span>
+        <span class="w gold">заново —</span>
+        <span class="w">под</span>
+        <span class="w">ваш</span>
+        <span class="w gold">характер.</span>
+      </div>
+      <p class="philo-note">Каждый визит выстроен как студийная сессия: свет, пропорции, материал и то, как вы смеётесь в жизни, а не на фото в кресле.</p>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-head">
+        <span class="idx">03 — Студия</span>
+        <h2 class="section-title"><span class="line">Пространство,</span><span class="line">где <em>не спешат</em></span></h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g-item" data-cursor="view">
+          <img src="assets/clinic-1.jpg" alt="Светлый современный кабинет" />
+          <figcaption class="g-cap">Кабинет</figcaption>
+        </figure>
+        <figure class="g-item" data-cursor="view">
+          <img src="assets/clinic-2.jpg" alt="Рабочая зона приёма" />
+          <figcaption class="g-cap">Свет</figcaption>
+        </figure>
+        <figure class="g-item is-quote">
+          <p>Тишина.<br>Свет.<br>Точный жест.</p>
+        </figure>
+        <figure class="g-item is-wide" data-cursor="view">
+          <img src="assets/scan.jpg" alt="Цифровая диагностика" />
+          <figcaption class="g-cap">Цифровой разбор</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="section-head">
+        <span class="idx">04 — Путь</span>
+        <h2 class="section-title"><span class="line">Как проходит</span><span class="line"><em>работа</em></span></h2>
+      </div>
+      <div class="process-list">
+        <div class="process-row">
+          <span class="n">01</span>
+          <h3>Знакомство</h3>
+          <p>Разбираем, что вам не нравится и чего вы на самом деле хотите. Без давления «сделать сразу всё».</p>
+        </div>
+        <div class="process-row">
+          <span class="n">02</span>
+          <h3>Диагностика</h3>
+          <p>Снимки, фотопротокол, если нужно — цифровой слепок. Смотрим не только зубы, но и как двигается лицо.</p>
+        </div>
+        <div class="process-row">
+          <span class="n">03</span>
+          <h3>Дизайн</h3>
+          <p>Вы видите будущий результат ещё до лечения: на визуализации и, при необходимости, на примерке.</p>
+        </div>
+        <div class="process-row">
+          <span class="n">04</span>
+          <h3>Реализация</h3>
+          <p>Аккуратная работа в кресле и контроль на каждом этапе. Финал — когда улыбка выглядит как ваша, только собранная точнее.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="visit">
+      <div class="contact-wrap">
+        <div>
+          <span class="idx">05 — Запись</span>
+          <h2>Приходите<br>на консультацию</h2>
+          <p class="hero-lead">Оставьте имя и телефон — с вами свяжутся, чтобы подобрать время. Адрес и подробности приёма можно добавить на сайт, когда будете готовы.</p>
+        </div>
+        <form class="form" id="visit-form">
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input id="phone" name="phone" required type="tel" autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="msg">Что беспокоит</label>
+            <textarea id="msg" name="msg" rows="3" placeholder="Коротко, своими словами"></textarea>
+          </div>
+          <button class="btn" type="submit" data-cursor data-magnetic>Отправить <span class="arrow">→</span></button>
+          <p class="form-ok">Заявка принята. Это демо-форма: заявки пока никуда не уходят — подключим запись, когда скажете куда.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© Джамиль Гаджиев</span>
+    <span>Эстетическая стоматология</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
